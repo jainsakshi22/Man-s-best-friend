@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5352734F19B5AD320057B8A3 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352734E19B5AD320057B8A3 /* MBFPuppy.m */; };
+		5352735119B631930057B8A3 /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5352735019B631930057B8A3 /* puppy.jpg */; };
+		53B3830019B3068300035630 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 53B382FF19B3068300035630 /* images.jpeg */; };
+		53B3830419B3398900035630 /* Dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53B3830119B3398900035630 /* Dog2.jpg */; };
+		53B3830519B3398900035630 /* Dog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53B3830219B3398900035630 /* Dog3.jpg */; };
+		53B3830619B3398900035630 /* Dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53B3830319B3398900035630 /* Dog1.jpg */; };
 		53CC3CE619B0EA4400C26E5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC3CE519B0EA4400C26E5A /* Foundation.framework */; };
 		53CC3CE819B0EA4400C26E5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC3CE719B0EA4400C26E5A /* CoreGraphics.framework */; };
 		53CC3CEA19B0EA4400C26E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC3CE919B0EA4400C26E5A /* UIKit.framework */; };
@@ -21,6 +27,7 @@
 		53CC3D0719B0EA4500C26E5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CC3CE919B0EA4400C26E5A /* UIKit.framework */; };
 		53CC3D0F19B0EA4500C26E5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53CC3D0D19B0EA4500C26E5A /* InfoPlist.strings */; };
 		53CC3D1119B0EA4500C26E5A /* Man_sBestFriend29AugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC3D1019B0EA4500C26E5A /* Man_sBestFriend29AugTests.m */; };
+		53CC3D1F19B0F0C700C26E5A /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CC3D1E19B0F0C700C26E5A /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5352734D19B5AD320057B8A3 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		5352734E19B5AD320057B8A3 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
+		5352735019B631930057B8A3 /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
+		53B382FF19B3068300035630 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		53B3830119B3398900035630 /* Dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog2.jpg; sourceTree = "<group>"; };
+		53B3830219B3398900035630 /* Dog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog3.jpg; sourceTree = "<group>"; };
+		53B3830319B3398900035630 /* Dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dog1.jpg; sourceTree = "<group>"; };
 		53CC3CE219B0EA4400C26E5A /* Man'sBestFriend29Aug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man'sBestFriend29Aug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CC3CE519B0EA4400C26E5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53CC3CE719B0EA4400C26E5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,8 @@
 		53CC3D0C19B0EA4500C26E5A /* Man'sBestFriend29AugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man'sBestFriend29AugTests-Info.plist"; sourceTree = "<group>"; };
 		53CC3D0E19B0EA4500C26E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53CC3D1019B0EA4500C26E5A /* Man_sBestFriend29AugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_sBestFriend29AugTests.m; sourceTree = "<group>"; };
+		53CC3D1D19B0F0C700C26E5A /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		53CC3D1E19B0F0C700C26E5A /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				53CC3CF719B0EA4400C26E5A /* Main.storyboard */,
 				53CC3CFA19B0EA4400C26E5A /* MBFViewController.h */,
 				53CC3CFB19B0EA4400C26E5A /* MBFViewController.m */,
+				53CC3D1D19B0F0C700C26E5A /* MBFDog.h */,
+				53CC3D1E19B0F0C700C26E5A /* MBFDog.m */,
+				5352734D19B5AD320057B8A3 /* MBFPuppy.h */,
+				5352734E19B5AD320057B8A3 /* MBFPuppy.m */,
 				53CC3CFD19B0EA4400C26E5A /* Images.xcassets */,
 				53CC3CEC19B0EA4400C26E5A /* Supporting Files */,
 			);
@@ -126,8 +146,13 @@
 		53CC3CEC19B0EA4400C26E5A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5352735019B631930057B8A3 /* puppy.jpg */,
+				53B382FF19B3068300035630 /* images.jpeg */,
 				53CC3CED19B0EA4400C26E5A /* Man'sBestFriend29Aug-Info.plist */,
 				53CC3CEE19B0EA4400C26E5A /* InfoPlist.strings */,
+				53B3830119B3398900035630 /* Dog2.jpg */,
+				53B3830219B3398900035630 /* Dog3.jpg */,
+				53B3830319B3398900035630 /* Dog1.jpg */,
 				53CC3CF119B0EA4400C26E5A /* main.m */,
 				53CC3CF319B0EA4400C26E5A /* Man'sBestFriend29Aug-Prefix.pch */,
 			);
@@ -229,7 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CC3CFE19B0EA4400C26E5A /* Images.xcassets in Resources */,
+				53B3830019B3068300035630 /* images.jpeg in Resources */,
+				53B3830619B3398900035630 /* Dog1.jpg in Resources */,
+				53B3830519B3398900035630 /* Dog3.jpg in Resources */,
+				53B3830419B3398900035630 /* Dog2.jpg in Resources */,
 				53CC3CF019B0EA4400C26E5A /* InfoPlist.strings in Resources */,
+				5352735119B631930057B8A3 /* puppy.jpg in Resources */,
 				53CC3CF919B0EA4400C26E5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			files = (
 				53CC3CF619B0EA4400C26E5A /* MBFAppDelegate.m in Sources */,
 				53CC3CFC19B0EA4400C26E5A /* MBFViewController.m in Sources */,
+				53CC3D1F19B0F0C700C26E5A /* MBFDog.m in Sources */,
 				53CC3CF219B0EA4400C26E5A /* main.m in Sources */,
+				5352734F19B5AD320057B8A3 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 				53CC3D1619B0EA4500C26E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53CC3D1719B0EA4500C26E5A /* Build configuration list for PBXNativeTarget "Man'sBestFriend29AugTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				53CC3D1919B0EA4500C26E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
